@@ -13,6 +13,7 @@
 		E46B8C4A1A235C050096567E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46B8C491A235C050096567E /* Images.xcassets */; };
 		E46B8C4D1A235C050096567E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46B8C4B1A235C050096567E /* LaunchScreen.xib */; };
 		E46B8C591A235C050096567E /* test_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B8C581A235C050096567E /* test_appTests.swift */; };
+		E46B8C631A235DE70096567E /* calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46B8C621A235DE70096567E /* calculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E46B8C521A235C050096567E /* test-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46B8C571A235C050096567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E46B8C581A235C050096567E /* test_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_appTests.swift; sourceTree = "<group>"; };
+		E46B8C621A235DE70096567E /* calculation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E46B8C491A235C050096567E /* Images.xcassets */,
 				E46B8C4B1A235C050096567E /* LaunchScreen.xib */,
 				E46B8C401A235C050096567E /* Supporting Files */,
+				E46B8C621A235DE70096567E /* calculation.swift */,
 			);
 			path = "test-app";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				E46B8C451A235C050096567E /* ViewController.swift in Sources */,
 				E46B8C431A235C050096567E /* AppDelegate.swift in Sources */,
+				E46B8C631A235DE70096567E /* calculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				E46B8C5E1A235C050096567E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E46B8C5F1A235C050096567E /* Build configuration list for PBXNativeTarget "test-appTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				E46B8C611A235C050096567E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
