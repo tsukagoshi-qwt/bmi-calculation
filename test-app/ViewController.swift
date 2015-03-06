@@ -8,6 +8,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
 
         height.delegate = self
+        
+        
         weight.delegate = self
         
     }
@@ -21,6 +23,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
 
     @IBOutlet var weight: UITextField!
+    
+    
     
     @IBOutlet var calcBtn: UIButton!
 
